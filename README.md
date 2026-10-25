@@ -28,10 +28,14 @@ as a separately attached
 It is **for reference only, not the source code of the latest store version**.
 See [diBlue](diBlue/README.md) for its scope and license notices.
 
-The historical iOS 2.3 (build 4) reference source is being prepared as a separate
-Release attachment. It is not yet available for download. See
-[diBlue](diBlue/README.md#historical-ios-source-23) for its scope and validation
-limits. This is reference material, not the latest store app source.
+The historical iOS 2.3 (build 4) reference source is available in the
+[diBlue iOS 2.3 Release](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/ios-v2.3)
+as a separately attached
+[iOS source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/ios-v2.3/diBlue-ios-v2.3-reference-source.zip).
+It is **for reference only, not the source code of the latest store version**.
+This revision has received static checks only and has not been rebuilt with
+Xcode. See [diBlue](diBlue/README.md#historical-ios-source-23) for its scope,
+license notices and validation limits.
 
 ## Documentation license
 

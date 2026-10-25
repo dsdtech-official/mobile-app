@@ -84,10 +84,12 @@ the reference ZIP.
 > (build 4)**. It is **not the source code of the latest store version** or
 > the newer diBlue Swift app. It does not include Android source or an IPA.
 
-The iOS reference source is prepared for a separate versioned Release as
-`diBlue-ios-v2.3-reference-source.zip`. No iOS source download has been published
-yet; check [Releases](../../../releases) after publication. The Android 2.5.1
-ZIP linked above is a different platform and version.
+The historical iOS source is available in the
+[diBlue iOS 2.3 Release](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/ios-v2.3).
+Download the attached
+[iOS reference source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/ios-v2.3/diBlue-ios-v2.3-reference-source.zip)
+(`diBlue-ios-v2.3-reference-source.zip`). The Android 2.5.1 ZIP linked above is
+a different platform and version.
 
 The iOS ZIP contains 179 files: application source and resources, the
 `TechBluetooth.xcodeproj` project and shared scheme, documentation and licenses.
@@ -112,7 +114,7 @@ Project-owned code is licensed under Apache-2.0. Vendored Masonry and
 MBProgressHUD retain their original notices and MIT terms; their exact
 historical import revisions have not been independently identified. Read
 `LICENSE`, `NOTICE`, `THIRD_PARTY_NOTICES.md` and `LICENSES/` inside the ZIP.
-Use the specifically attached iOS source ZIP when available: GitHub's automatic
+Use the specifically attached iOS source ZIP: GitHub's automatic
 **Source code (zip/tar.gz)** downloads contain this documentation repository.
 
 ## Report a problem
