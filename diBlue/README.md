@@ -40,23 +40,24 @@ with every Bluetooth device.
 
 ## Historical Android source: 2.5.1
 
-> **Reference only:** the planned source ZIP contains the historical Android
+> **Reference only:** the source ZIP contains the historical Android
 > **2.5.1** codebase (versionCode **10**). It is **not the source code of the
 > latest store version**, and it does not contain the iOS source code.
 
-The historical source is packaged as a separately attached ZIP for a versioned
-GitHub Release: `diBlue-android-v2.5.1-reference-source.zip`.
-No source download has been published yet. Check [Releases](../../../releases)
-after publication. The main branch contains documentation and feedback forms
-only; it does not contain the Android application source.
+The historical source is available in the
+[diBlue Android 2.5.1 Release](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/android-v2.5.1).
+Download the attached
+[reference source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/android-v2.5.1/diBlue-android-v2.5.1-reference-source.zip)
+(`diBlue-android-v2.5.1-reference-source.zip`).
+The main branch contains documentation and feedback forms only; it does not
+contain the Android application source.
 
 The archive contains 151 files: application sources and resources, Gradle build
 files and Wrapper, documentation and license notices. Tests, test-only build
 settings, generated caches, original signing material and installation packages
 are excluded. The archive is not a ready-to-install APK or AAB.
 
-When the reference source is available, use the specifically attached source
-ZIP. GitHub's automatically generated **Source code (zip)** and
+Use the specifically attached reference source ZIP. GitHub's automatically generated **Source code (zip)** and
 **Source code (tar.gz)** archives contain this documentation repository, not
 the separately attached Android application source.
 

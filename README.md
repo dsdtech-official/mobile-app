@@ -20,10 +20,13 @@ communication data from screenshots and logs before posting.
 ## Source code and downloads
 
 The main branch contains documentation and feedback forms, not application
-source code or installation packages. Historical reference source, when
-published, is provided as a separately attached ZIP in a versioned Release.
-See [diBlue](diBlue/README.md) for its Android 2.5.1 reference-source scope and
-download status. It is not the source code of the latest store version.
+source code or installation packages. The historical Android 2.5.1 reference
+source is available in the
+[diBlue 2.5.1 Release](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/android-v2.5.1)
+as a separately attached
+[source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/android-v2.5.1/diBlue-android-v2.5.1-reference-source.zip).
+It is **for reference only, not the source code of the latest store version**.
+See [diBlue](diBlue/README.md) for its scope and license notices.
 
 ## Documentation license
 
