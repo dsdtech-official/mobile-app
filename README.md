@@ -34,14 +34,16 @@ as a separately attached
 [iOS source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/ios-v2.3/diBlue-ios-v2.3-reference-source.zip).
 It is **for reference only, not the source code of the latest store version**.
 This revision has received static checks only and has not been rebuilt with
-Xcode. See [diBlue](diBlue/README.md#historical-ios-source-23) for its scope,
+Xcode. See [diBlue](diBlue/README.md#historical-ios-source-dsd-tech-bluetooth-23) for its scope,
 license notices and validation limits.
 
 ## Documentation license
 
-Except for the protocol reference identified below, the documentation and
-feedback templates are licensed under [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt).
-The [Bluetooth Relay Protocol](diBlue/docs/bluetooth-relay-protocol.md), including
-its code examples, is licensed under [Apache-2.0](LICENSES/Apache-2.0.txt).
+Except for the references identified below, the documentation and feedback
+templates are licensed under [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt).
+The [Bluetooth Relay Protocol](diBlue/docs/bluetooth-relay-protocol.md) and
+[Bluetooth Module Data Connection](diBlue/docs/bluetooth-data-connection.md),
+including their code examples, are licensed under
+[Apache-2.0](LICENSES/Apache-2.0.txt).
 These documentation licenses do not grant rights to the diBlue application,
 its separately distributed source archives or third-party components.

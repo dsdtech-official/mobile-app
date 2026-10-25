@@ -12,66 +12,84 @@ For normal use, install diBlue from the store for your device:
 
 | Platform | App download | Historical source — reference only |
 |---|---|---|
-| Android | [Google Play](https://play.google.com/store/apps/details?id=com.reb.dsd_ble) | [2.5.1 source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/android-v2.5.1/diBlue-android-v2.5.1-reference-source.zip) · [Details](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/android-v2.5.1) |
-| iOS | [App Store](https://apps.apple.com/app/id1441528159) | [2.3 source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/ios-v2.3/diBlue-ios-v2.3-reference-source.zip) · [Details](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/ios-v2.3) |
+| Android | [Google Play](https://play.google.com/store/apps/details?id=com.reb.dsd_ble) | [DSD TECH Bluetooth 2.5.1 ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/android-v2.5.1/diBlue-android-v2.5.1-reference-source.zip) · [Release notes](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/android-v2.5.1) |
+| iOS | [App Store](https://apps.apple.com/app/id1441528159) | [DSD TECH Bluetooth 2.3 ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/ios-v2.3/diBlue-ios-v2.3-reference-source.zip) · [Release notes](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/ios-v2.3) |
 
-> **The source ZIPs are historical versions provided for reference only.
-> They are not the source code of the latest store apps.**
+> **The source ZIPs are old versions provided for reference only, not the source
+> code of the current diBlue store apps. They are not installable APKs or IPAs.**
+> **The iOS reference revision has not been rebuilt with Xcode.**
+
+Download the named source ZIPs in the table. GitHub's automatic **Source code
+(zip/tar.gz)** downloads contain this documentation repository, not the
+separately attached Android or iOS application source. The main branch contains
+documentation and feedback forms only.
 
 The [official download page](https://www.deshide.com/News-detail_DSDTechBluetooth.html)
 also identifies the app by its former name, DSD TECH Bluetooth.
 
-## Android app highlights
+## Usage guides
+
+| What you need | Guide |
+|---|---|
+| Connect a BLE module and send or receive Text / HEX data | [Bluetooth Module Data Connection](docs/bluetooth-data-connection.md) — default UUIDs, subscription, byte encoding and transfer limits; module examples include HM-10, HM-11, HM-18 and HM-20. |
+| Control a compatible relay or implement your own client | [Bluetooth Relay Protocol](docs/bluetooth-relay-protocol.md) — compatible models, A1.1 / A1.2 capabilities, packets and A1.2 programming examples. |
+
+These guides are independent of the historical source snapshots below.
+They do not imply that those snapshots implement all current features,
+including newer relay state-query or detection behavior. Model names alone
+do not establish a module's GATT configuration.
+
+## Help and feedback
+
+- [Report a problem](https://github.com/dsdtech-official/mobile-app/issues/new?template=diblue-bug.yml)
+- [Suggest an improvement](https://github.com/dsdtech-official/mobile-app/issues/new?template=diblue-feature.yml)
+- Prefer private support or cannot use GitHub? [Email DSD TECH](mailto:dsd_tech@outlook.com).
+
+For a problem report, include your platform and app version, whether you use
+the store app or a historical-source build, phone/tablet model, OS version,
+related hardware, steps to reproduce, and expected / actual results.
+Enter `unknown` if you cannot find the app version. Add screenshots or logs
+only when useful. For a suggestion, explain what you want to do and how it
+would help.
+
+**GitHub feedback requires an account and is public.** Remove passwords,
+account details, device identifiers, order details and sensitive communication
+data from reports, logs and screenshots. Send private support details by email.
+
+## Android features and compatibility
 
 - Discover nearby BLE devices, save favorites and assign local device aliases.
-- Send and receive text or HEX data, once or repeatedly at a chosen interval.
-- Choose text line endings: None, CR, LF or CRLF.
+- Send and receive Text / HEX once or repeatedly at a chosen interval; choose
+  text line endings: None, CR, LF or CRLF.
 - Reuse command history and starred commands. Selecting a saved command fills
   the input for review rather than sending it automatically.
 - Detect supported relay channel counts, refresh reported states and control
   individual channels or all channels together.
-- Choose from nine interface languages and adjust log timestamps, automatic
-  scrolling and whether the screen stays on while connected.
+- Choose nine interface languages; adjust log timestamps, automatic scrolling
+  and whether the screen stays on while connected.
 
-These highlights describe the newer Android app, not the historical 2.5.1
-source snapshot described below. They are not a feature specification for iOS.
+These features describe the newer Android app, not the historical 2.5.1
+snapshot. They are not a feature specification for iOS.
 
 The Android app requires compatible BLE hardware and GATT services and
 characteristics. Relay control requires a supported relay protocol.
-Classic Bluetooth SPP devices are not supported, and the app does not work
-with every Bluetooth device.
+**Classic Bluetooth SPP-only connections are not supported.** The app does not
+work with every Bluetooth device.
 
-## Bluetooth relay protocol
+## Historical Android source: DSD TECH Bluetooth 2.5.1
 
-See the [Bluetooth Relay Protocol](docs/bluetooth-relay-protocol.md) for
-compatible relay models, BLE identifiers, packet formats and A1.2 programming
-examples. This protocol reference is independent of the historical app source
-snapshots below; those snapshots do not imply support for newer state-query
-or detection features. The document and its examples are licensed under
-[Apache-2.0](../LICENSES/Apache-2.0.txt).
+> **Old-version reference code only:** this ZIP contains the historical
+> **DSD TECH Bluetooth 2.5.1** Android codebase (versionCode **10**).
+> It is **not the source code of the current diBlue store app** and does not
+> contain iOS source code.
 
-## Historical Android source: 2.5.1
-
-> **Reference only:** the source ZIP contains the historical Android
-> **2.5.1** codebase (versionCode **10**). It is **not the source code of the
-> latest store version**, and it does not contain the iOS source code.
-
-The historical source is available in the
-[diBlue Android 2.5.1 Release](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/android-v2.5.1).
-Download the attached
-[reference source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/android-v2.5.1/diBlue-android-v2.5.1-reference-source.zip)
-(`diBlue-android-v2.5.1-reference-source.zip`).
-The main branch contains documentation and feedback forms only; it does not
-contain the Android application source.
+<details>
+<summary>Archive contents, version differences, licenses and build limitations</summary>
 
 The archive contains 151 files: application sources and resources, Gradle build
 files and Wrapper, documentation and license notices. Tests, test-only build
 settings, generated caches, original signing material and installation packages
 are excluded. The archive is not a ready-to-install APK or AAB.
-
-Use the specifically attached reference source ZIP. GitHub's automatically generated **Source code (zip)** and
-**Source code (tar.gz)** archives contain this documentation repository, not
-the separately attached Android application source.
 
 Version 2.5.1 predates the newer device favorites and aliases, command history,
 nine-language interface and relay detection/state-refresh features.
@@ -90,18 +108,21 @@ and dependency cache. This was not a fresh-environment build, complete test
 suite, APK validation or hardware verification. No tests are distributed in
 the reference ZIP.
 
-## Historical iOS source: 2.3
+</details>
 
-> **Reference only:** this historical Objective-C snapshot is **iOS 2.3
-> (build 4)**. It is **not the source code of the latest store version** or
-> the newer diBlue Swift app. It does not include Android source or an IPA.
+## Historical iOS source: DSD TECH Bluetooth 2.3
 
-The historical iOS source is available in the
-[diBlue iOS 2.3 Release](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/ios-v2.3).
-Download the attached
-[iOS reference source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/ios-v2.3/diBlue-ios-v2.3-reference-source.zip)
-(`diBlue-ios-v2.3-reference-source.zip`). The Android 2.5.1 ZIP linked above is
-a different platform and version.
+> **Old-version reference code only:** this ZIP contains the historical
+> **DSD TECH Bluetooth 2.3** iOS Objective-C codebase (build **4**).
+> It is **not the source code of the current diBlue store app** or the newer
+> diBlue Swift app. It does not include Android source or an IPA.
+
+**This English, application-only revision has received static checks only
+and has not been rebuilt with Xcode. No runtime or hardware validation is
+claimed for this revision.**
+
+<details>
+<summary>Archive contents, licenses and build limitations</summary>
 
 The iOS ZIP contains 179 files: application source and resources, the
 `TechBluetooth.xcodeproj` project and shared scheme, documentation and licenses.
@@ -126,34 +147,8 @@ Project-owned code is licensed under Apache-2.0. Vendored Masonry and
 MBProgressHUD retain their original notices and MIT terms; their exact
 historical import revisions have not been independently identified. Read
 `LICENSE`, `NOTICE`, `THIRD_PARTY_NOTICES.md` and `LICENSES/` inside the ZIP.
-Use the specifically attached iOS source ZIP: GitHub's automatic
-**Source code (zip/tar.gz)** downloads contain this documentation repository.
 
-## Report a problem
-
-Open [Issues](../../../issues), select **diBlue: Report a problem**, and include:
-
-- Android or iOS, and the diBlue version you are using. Enter `unknown` if needed.
-- Whether you are using the store app or a build from the historical reference source.
-- Your phone or tablet model and operating system version.
-- Related hardware, if applicable.
-- The steps you followed, what you expected, and what actually happened.
-- Screenshots or logs, if useful, with sensitive information removed.
-
-## Suggest an improvement
-
-Open [Issues](../../../issues) and choose **diBlue: Suggest an improvement**.
-Describe what you want to do, which platform you use, and how the change would
-help.
-
-## Before posting
-
-You need a GitHub account to submit feedback. Reports and comments are public.
-Do not include passwords, account details, device identifiers, order details,
-or sensitive communication data.
-
-If you cannot use GitHub, contact [DSD TECH support](mailto:dsd_tech@outlook.com).
-Do not post private support details in a public issue.
+</details>
 
 ## Privacy
 
