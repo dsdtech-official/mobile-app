@@ -41,6 +41,15 @@ characteristics. Relay control requires a supported relay protocol.
 Classic Bluetooth SPP devices are not supported, and the app does not work
 with every Bluetooth device.
 
+## Bluetooth relay protocol
+
+See the [Bluetooth Relay Protocol](docs/bluetooth-relay-protocol.md) for
+compatible relay models, BLE identifiers, packet formats and A1.2 programming
+examples. This protocol reference is independent of the historical app source
+snapshots below; those snapshots do not imply support for newer state-query
+or detection features. The document and its examples are licensed under
+[Apache-2.0](../LICENSES/Apache-2.0.txt).
+
 ## Historical Android source: 2.5.1
 
 > **Reference only:** the source ZIP contains the historical Android

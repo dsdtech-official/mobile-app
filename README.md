@@ -39,6 +39,9 @@ license notices and validation limits.
 
 ## Documentation license
 
-The documentation and feedback templates are licensed under
-[CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt).
-This license does not grant rights to the diBlue application or its source code.
+Except for the protocol reference identified below, the documentation and
+feedback templates are licensed under [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt).
+The [Bluetooth Relay Protocol](diBlue/docs/bluetooth-relay-protocol.md), including
+its code examples, is licensed under [Apache-2.0](LICENSES/Apache-2.0.txt).
+These documentation licenses do not grant rights to the diBlue application,
+its separately distributed source archives or third-party components.
