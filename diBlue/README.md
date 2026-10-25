@@ -6,14 +6,17 @@ diBlue, formerly **DSD TECH Bluetooth**, is a Bluetooth Low Energy (BLE) termina
 for compatible devices and supported DSD TECH relay modules. It is available
 for Android and iOS.
 
-## Install the app
+## Downloads
 
 For normal use, install diBlue from the store for your device:
 
-| Platform | Download |
-|---|---|
-| Android | [Google Play](https://play.google.com/store/apps/details?id=com.reb.dsd_ble) |
-| iOS | [App Store](https://apps.apple.com/app/id1441528159) |
+| Platform | App download | Historical source — reference only |
+|---|---|---|
+| Android | [Google Play](https://play.google.com/store/apps/details?id=com.reb.dsd_ble) | [2.5.1 source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/android-v2.5.1/diBlue-android-v2.5.1-reference-source.zip) · [Details](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/android-v2.5.1) |
+| iOS | [App Store](https://apps.apple.com/app/id1441528159) | [2.3 source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/ios-v2.3/diBlue-ios-v2.3-reference-source.zip) · [Details](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/ios-v2.3) |
+
+> **The source ZIPs are historical versions provided for reference only.
+> They are not the source code of the latest store apps.**
 
 The [official download page](https://www.deshide.com/News-detail_DSDTechBluetooth.html)
 also identifies the app by its former name, DSD TECH Bluetooth.
