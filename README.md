@@ -28,6 +28,11 @@ as a separately attached
 It is **for reference only, not the source code of the latest store version**.
 See [diBlue](diBlue/README.md) for its scope and license notices.
 
+The historical iOS 2.3 (build 4) reference source is being prepared as a separate
+Release attachment. It is not yet available for download. See
+[diBlue](diBlue/README.md#historical-ios-source-23) for its scope and validation
+limits. This is reference material, not the latest store app source.
+
 ## Documentation license
 
 The documentation and feedback templates are licensed under

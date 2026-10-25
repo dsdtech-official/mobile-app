@@ -78,6 +78,43 @@ and dependency cache. This was not a fresh-environment build, complete test
 suite, APK validation or hardware verification. No tests are distributed in
 the reference ZIP.
 
+## Historical iOS source: 2.3
+
+> **Reference only:** this historical Objective-C snapshot is **iOS 2.3
+> (build 4)**. It is **not the source code of the latest store version** or
+> the newer diBlue Swift app. It does not include Android source or an IPA.
+
+The iOS reference source is prepared for a separate versioned Release as
+`diBlue-ios-v2.3-reference-source.zip`. No iOS source download has been published
+yet; check [Releases](../../../releases) after publication. The Android 2.5.1
+ZIP linked above is a different platform and version.
+
+The iOS ZIP contains 179 files: application source and resources, the
+`TechBluetooth.xcodeproj` project and shared scheme, documentation and licenses.
+Legacy template tests and their project targets, signing material, generated
+build output and private development history are excluded. The main branch
+continues to contain documentation and feedback forms only.
+
+Comments, diagnostic messages, UI labels and Bluetooth permission text have
+been translated into English. The project uses an example bundle identifier;
+choose your own identifier and development team for a device build. The code
+license does not grant rights to use DSD TECH branding for your own product.
+
+**This English, application-only revision has received static checks only and
+has not been rebuilt with Xcode.** An earlier revision, before the translation
+and test removal, completed an unsigned Debug simulator build on a Mac with
+an iOS 15.0 deployment-target override. That result does not establish a
+successful build of this revision, historical iOS 9.3 compatibility, App Store
+eligibility or real BLE/relay behavior. No fresh-environment build, runtime
+or hardware validation is claimed for this revision.
+
+Project-owned code is licensed under Apache-2.0. Vendored Masonry and
+MBProgressHUD retain their original notices and MIT terms; their exact
+historical import revisions have not been independently identified. Read
+`LICENSE`, `NOTICE`, `THIRD_PARTY_NOTICES.md` and `LICENSES/` inside the ZIP.
+Use the specifically attached iOS source ZIP when available: GitHub's automatic
+**Source code (zip/tar.gz)** downloads contain this documentation repository.
+
 ## Report a problem
 
 Open [Issues](../../../issues), select **diBlue: Report a problem**, and include:
