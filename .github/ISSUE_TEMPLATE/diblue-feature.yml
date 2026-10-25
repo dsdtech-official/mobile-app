@@ -1,0 +1,55 @@
+# SPDX-FileCopyrightText: 2026 DongGuan DESHIDE TECHNOLOGY CO., LTD (DSD TECH)
+# SPDX-License-Identifier: CC-BY-SA-4.0
+name: "diBlue: Suggest an improvement"
+description: Suggest a feature or improvement for diBlue.
+title: "[diBlue][Suggestion]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what you would like to do with diBlue.
+        This suggestion will be public. Remove personal information and sensitive data.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS
+        - Both
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: diBlue version, if known
+    validations:
+      required: false
+  - type: textarea
+    id: use-case
+    attributes:
+      label: What are you trying to do?
+      description: Describe the task or problem behind your suggestion.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: Explain how you would like the app to work.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or additional context
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy-check
+    attributes:
+      label: Public suggestion
+      options:
+        - label: I have removed personal information and sensitive data from this suggestion and any attachments.
+          required: true

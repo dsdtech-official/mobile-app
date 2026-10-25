@@ -1,0 +1,83 @@
+# SPDX-FileCopyrightText: 2026 DongGuan DESHIDE TECHNOLOGY CO., LTD (DSD TECH)
+# SPDX-License-Identifier: CC-BY-SA-4.0
+name: "diBlue: Report a problem"
+description: Report a problem while using diBlue on Android or iOS.
+title: "[diBlue][Problem]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is for diBlue on Android or iOS.
+        Your report will be public. Remove personal information, device identifiers,
+        passwords and sensitive communication data before submitting.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: diBlue version
+      description: Enter the version shown by the app or system app information, or unknown.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone or tablet model
+      description: Enter the model name, not a serial number or other unique identifier.
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating system version
+      placeholder: "For example, Android 15 or iOS 18. Enter unknown if needed."
+    validations:
+      required: true
+  - type: input
+    id: related-hardware
+    attributes:
+      label: Related hardware, if applicable
+      description: Enter a product model, not a serial number or device address.
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe what you did, in order, and how often the problem happens.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Include the error message, if any.
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or logs, if useful
+      description: Attach only information needed to explain the problem. Remove sensitive details first.
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy-check
+    attributes:
+      label: Public report
+      options:
+        - label: I have removed personal information and sensitive data from this report and any attachments.
+          required: true
