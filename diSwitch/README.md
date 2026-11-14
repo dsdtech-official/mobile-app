@@ -53,14 +53,10 @@ Removing a device from **My devices** deletes its saved local record; it does
 not reset the physical relay. Marking a device as unrelated excludes it from
 nearby scans and lets you restore it in **Settings**.
 
-## Documentation
-
-See the [documentation index](docs/README.md) for app-specific resources.
-
 ## Help and feedback
 
-- [Report a problem](https://github.com/dsdtech-official/mobile-app/issues/new?title=%5BdiSwitch%5D%5BProblem%5D%3A%20)
-- [Suggest an improvement](https://github.com/dsdtech-official/mobile-app/issues/new?title=%5BdiSwitch%5D%5BSuggestion%5D%3A%20)
+- [Report a problem](https://github.com/dsdtech-official/mobile-app/issues/new?template=diswitch-bug.yml)
+- [Suggest an improvement](https://github.com/dsdtech-official/mobile-app/issues/new?template=diswitch-feature.yml)
 - Prefer private support or cannot use GitHub? [Email DSD TECH](mailto:dsd_tech@outlook.com).
 
 For a problem report, include your platform (Android or iOS), app version, phone or tablet

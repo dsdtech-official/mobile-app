@@ -59,14 +59,10 @@ location permission for scanning.
 The current app uses a general Data page for communication. The dedicated
 relay-control page from older versions has been removed.
 
-## Documentation
-
-See the [documentation index](docs/README.md) for app-specific resources.
-
 ## Help and feedback
 
-- [Report a problem](https://github.com/dsdtech-official/mobile-app/issues/new?title=%5BdiSPP%5D%5BProblem%5D%3A%20)
-- [Suggest an improvement](https://github.com/dsdtech-official/mobile-app/issues/new?title=%5BdiSPP%5D%5BSuggestion%5D%3A%20)
+- [Report a problem](https://github.com/dsdtech-official/mobile-app/issues/new?template=dispp-bug.yml)
+- [Suggest an improvement](https://github.com/dsdtech-official/mobile-app/issues/new?template=dispp-feature.yml)
 - Prefer private support or cannot use GitHub? [Email DSD TECH](mailto:dsd_tech@outlook.com).
 
 For a problem report, include your app version, phone or tablet model, Android

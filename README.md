@@ -2,57 +2,59 @@
 <!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
 # DSD TECH mobile apps
 
-Downloads, app information, documentation and user feedback for DSD TECH mobile
-apps. Choose your app below for its store links, features and support options.
+Download DSD TECH mobile apps, find usage guides and protocol references,
+and get help with supported devices.
 
-| App | Platforms | Purpose | Guides and resources |
+## Choose your app
+
+| App | Main use | Platforms | Store downloads |
 |---|---|---|---|
-| [diBlue](diBlue/README.md) | Android and iOS | BLE terminal and supported relay control | [Data connection](diBlue/docs/bluetooth-data-connection.md) · [Relay protocol](diBlue/docs/bluetooth-relay-protocol.md) |
-| [diSwitch](diSwitch/README.md) | Android and iOS | Bluetooth relay control | [diSwitch documentation](diSwitch/docs/README.md) |
-| [diSPP](diSPP/README.md) | Android | Classic Bluetooth SPP serial terminal | [diSPP documentation](diSPP/docs/README.md) |
+| [diBlue](diBlue/README.md) | BLE data terminal and supported relay control | Android, iOS | [Google Play](https://play.google.com/store/apps/details?id=com.reb.dsd_ble) · [App Store](https://apps.apple.com/app/id1441528159) |
+| [diSwitch](diSwitch/README.md) | Compatible Bluetooth relay control | Android, iOS | [Google Play](https://play.google.com/store/apps/details?id=com.reb.switchbt) · [App Store](https://apps.apple.com/app/id1483733224) |
+| [diSPP](diSPP/README.md) | Classic Bluetooth SPP serial terminal | Android | [Google Play](https://play.google.com/store/apps/details?id=com.reb.dsd_spp) |
 
-App-specific guides and protocol documents are organized under each app's own
-`docs/` directory. See each app page for platform-specific capabilities and
-hardware requirements.
+- For BLE data communication, see [diBlue](diBlue/README.md).
+- For classic Bluetooth SPP communication, see [diSPP](diSPP/README.md).
+- For relay control, compare the hardware and platform requirements on the
+  [diBlue](diBlue/README.md) and [diSwitch](diSwitch/README.md) pages.
 
-## Feedback
+## Guides and protocols
 
-Open [Issues](../../issues). For diBlue, choose the problem report or improvement
-form. For diSwitch and diSPP, use the feedback links on their documentation
-pages. Include your app name, platform and app version so the report can be
-identified.
-You need a GitHub account to submit an issue.
+- **diBlue:** [BLE data connection](diBlue/docs/bluetooth-data-connection.md)
+  and [Bluetooth relay protocol](diBlue/docs/bluetooth-relay-protocol.md).
+- **diSwitch:** [App features, compatibility and device management](diSwitch/README.md).
+- **diSPP:** [Text / HEX communication, commands and compatibility](diSPP/README.md).
 
-Issues are public. Remove personal information, device identifiers and sensitive
-communication data from screenshots and logs before posting.
+Each app has its own directory. Its README contains app information and
+support links; detailed guides and protocol references belong in that app's
+`docs/` directory when available. Protocol applicability is defined by each
+document's hardware and firmware scope.
 
-## Source code and downloads
+## Help and feedback
 
-The main branch contains documentation and feedback forms, not application
-source code or installation packages. The historical Android 2.5.1 reference
-source is available in the
-[diBlue 2.5.1 Release](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/android-v2.5.1)
-as a separately attached
-[source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/android-v2.5.1/diBlue-android-v2.5.1-reference-source.zip).
-It is **for reference only, not the source code of the latest store version**.
-See [diBlue](diBlue/README.md) for its scope and license notices.
+| App | Report a problem | Suggest an improvement |
+|---|---|---|
+| diBlue | [Problem report](https://github.com/dsdtech-official/mobile-app/issues/new?template=diblue-bug.yml) | [Suggestion](https://github.com/dsdtech-official/mobile-app/issues/new?template=diblue-feature.yml) |
+| diSwitch | [Problem report](https://github.com/dsdtech-official/mobile-app/issues/new?template=diswitch-bug.yml) | [Suggestion](https://github.com/dsdtech-official/mobile-app/issues/new?template=diswitch-feature.yml) |
+| diSPP | [Problem report](https://github.com/dsdtech-official/mobile-app/issues/new?template=dispp-bug.yml) | [Suggestion](https://github.com/dsdtech-official/mobile-app/issues/new?template=dispp-feature.yml) |
 
-The historical iOS 2.3 (build 4) reference source is available in the
-[diBlue iOS 2.3 Release](https://github.com/dsdtech-official/mobile-app/releases/tag/diBlue/ios-v2.3)
-as a separately attached
-[iOS source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diBlue/ios-v2.3/diBlue-ios-v2.3-reference-source.zip).
-It is **for reference only, not the source code of the latest store version**.
-This revision has received static checks only and has not been rebuilt with
-Xcode. See [diBlue](diBlue/README.md#historical-ios-source-dsd-tech-bluetooth-23) for its scope,
-license notices and validation limits.
+GitHub feedback requires an account and is public. Remove passwords, personal
+information, device identifiers, order details and sensitive communication data
+from reports and attachments. For private support or if you cannot use GitHub,
+[email DSD TECH](mailto:dsd_tech@outlook.com).
 
-## Documentation license
+## Historical source and licensing
 
-Except for the references identified below, the documentation and feedback
-templates are licensed under [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt).
-The [Bluetooth Relay Protocol](diBlue/docs/bluetooth-relay-protocol.md) and
-[Bluetooth Module Data Connection](diBlue/docs/bluetooth-data-connection.md),
-including their code examples, are licensed under
-[Apache-2.0](LICENSES/Apache-2.0.txt).
+This repository contains documentation and feedback forms. Install the apps
+through their store links above. The [diBlue historical source page](diBlue/docs/reference-source.md)
+provides older Android and iOS reference archives, their Release links,
+licenses and validation limits. Those archives are **not the current store
+apps' source code**. The iOS reference revision has not been rebuilt with Xcode.
+
+Documentation and feedback templates are licensed under
+[CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt), except that the
+[diBlue relay protocol](diBlue/docs/bluetooth-relay-protocol.md) and
+[BLE data connection guide](diBlue/docs/bluetooth-data-connection.md), including
+their examples, use [Apache-2.0](LICENSES/Apache-2.0.txt).
 These documentation licenses do not grant rights to the applications,
 their separately distributed source archives or third-party components.
