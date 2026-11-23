@@ -51,10 +51,10 @@ provides older Android and iOS reference archives, their Release links,
 licenses and validation limits. Those archives are **not the current store
 apps' source code**. The iOS reference revision has not been rebuilt with Xcode.
 
-A separate [diSwitch Android 2.4 reference snapshot](diSwitch/docs/reference-source.md)
-is being prepared for publication. It is an adapted historical snapshot,
-not the original release source or current store source; see its validation
-limits and third-party graphics notices.
+The [diSwitch Android 2.4 reference snapshot](diSwitch/docs/reference-source.md)
+is available as a separate Release attachment. It is an adapted historical
+snapshot, not the original release source or current store source; see its
+download links, validation limits and third-party graphics notices.
 
 Documentation and feedback templates are licensed under
 [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt), except that the

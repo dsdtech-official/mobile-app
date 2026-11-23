@@ -9,8 +9,25 @@ and does not include iOS source or an installable APK/AAB.
 
 ## Availability
 
-The reference source has not yet been published. Use the
-[store downloads](../README.md#downloads) for normal installation.
+The reference source is published as separate attachments to the
+[diSwitch Android 2.4 reference source Release](https://github.com/dsdtech-official/mobile-app/releases/tag/diSwitch/android-v2.4).
+Use the [store downloads](../README.md#downloads) for normal installation.
+
+| Reference material | Download |
+|---|---|
+| Adapted Android 2.4 source (148 files) | [Source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diSwitch/android-v2.4/diSwitch-android-v2.4-reference-source.zip) |
+| Attachment checksums | [SHA256SUMS.txt](https://github.com/dsdtech-official/mobile-app/releases/download/diSwitch/android-v2.4/SHA256SUMS.txt) |
+| Third-party and graphics notices | [THIRD-PARTY-NOTICES.md](https://github.com/dsdtech-official/mobile-app/releases/download/diSwitch/android-v2.4/THIRD-PARTY-NOTICES.md) |
+
+ZIP SHA-256:
+
+```text
+ef6deb9b62dee1b84dfef7bd4c269a9853b52fa9c063c36b009aacbfe2b09474
+```
+
+Verify the downloaded source ZIP and notices against `SHA256SUMS.txt`.
+The code license does not establish redistribution permission for the
+33 legacy PNGs with unidentified authors and terms; read the notices below.
 
 The source package is separate from this documentation repository. GitHub's
 automatic **Source code (zip/tar.gz)** archives of this repository contain the

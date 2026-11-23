@@ -15,6 +15,8 @@ DSD TECH for Android and iOS. Compatible relay hardware is required.
 Install the store app for your platform. The sections below distinguish
 Android and iOS features.
 
+**Historical Android 2.4 reference source:** [Download source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diSwitch/android-v2.4/diSwitch-android-v2.4-reference-source.zip) · [Checksums, licenses and build notes](docs/reference-source.md).
+
 ## Android features
 
 - Scan for nearby devices and add compatible relays to **My devices**.
@@ -75,10 +77,10 @@ Read the [Android app privacy policy](https://www.deshide.com/News-detail_303226
 
 ## Historical Android reference source
 
-An [adapted Android 2.4 reference snapshot](docs/reference-source.md) is being
-prepared for publication. It differs from the original release source and is
-**not the source of the current store app**. It does not contain iOS source
-or an installable APK/AAB. See its scope, build limits and graphics notices
-before using it.
+An [adapted Android 2.4 reference snapshot](docs/reference-source.md) is available
+as a separate [source ZIP](https://github.com/dsdtech-official/mobile-app/releases/download/diSwitch/android-v2.4/diSwitch-android-v2.4-reference-source.zip).
+It differs from the original release source and is **not the source of the
+current store app**. It does not contain iOS source or an installable APK/AAB.
+See its scope, build limits, checksums and graphics notices before using it.
 
 [All mobile apps](../README.md)
