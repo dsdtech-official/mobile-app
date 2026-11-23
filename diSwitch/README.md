@@ -73,4 +73,12 @@ details by email.
 
 Read the [Android app privacy policy](https://www.deshide.com/News-detail_3032265.html).
 
+## Historical Android reference source
+
+An [adapted Android 2.4 reference snapshot](docs/reference-source.md) is being
+prepared for publication. It differs from the original release source and is
+**not the source of the current store app**. It does not contain iOS source
+or an installable APK/AAB. See its scope, build limits and graphics notices
+before using it.
+
 [All mobile apps](../README.md)
