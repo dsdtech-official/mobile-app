@@ -12,9 +12,11 @@ and get help with supported devices.
 | [diBlue](diBlue/README.md) | BLE data terminal and supported relay control | Android, iOS | [Google Play](https://play.google.com/store/apps/details?id=com.reb.dsd_ble) · [App Store](https://apps.apple.com/app/id1441528159) |
 | [diSwitch](diSwitch/README.md) | Compatible Bluetooth relay control | Android, iOS | [Google Play](https://play.google.com/store/apps/details?id=com.reb.switchbt) · [App Store](https://apps.apple.com/app/id1483733224) |
 | [diSPP](diSPP/README.md) | Classic Bluetooth SPP serial terminal | Android | [Google Play](https://play.google.com/store/apps/details?id=com.reb.dsd_spp) |
+| [diSerial](diSerial/README.md) | USB serial terminal with live charts and log export | Android | [Google Play](https://play.google.com/store/apps/details?id=com.dsdtech.diserial_mobile) |
 
 - For BLE data communication, see [diBlue](diBlue/README.md).
 - For classic Bluetooth SPP communication, see [diSPP](diSPP/README.md).
+- For USB serial debugging on Android, see [diSerial](diSerial/README.md).
 - For relay control, compare the hardware and platform requirements on the
   [diBlue](diBlue/README.md) and [diSwitch](diSwitch/README.md) pages.
 
@@ -24,6 +26,7 @@ and get help with supported devices.
   and [Bluetooth relay protocol](diBlue/docs/bluetooth-relay-protocol.md).
 - **diSwitch:** [App features, compatibility and device management](diSwitch/README.md).
 - **diSPP:** [Text / HEX communication, commands and compatibility](diSPP/README.md).
+- **diSerial:** [Android app introduction and privacy policy](diSerial/README.md).
 
 Each app has its own directory. Its README contains app information and
 support links; detailed guides and protocol references belong in that app's
