@@ -11,9 +11,9 @@ and a compatible single-port USB serial adapter.
 
 [Get it on Google Play](https://play.google.com/store/apps/details?id=com.dsdtech.diserial_mobile)
 
-## App introduction
+## App guide and source code
 
-[diSerial for Android app introduction](https://dsdtech-official.github.io/diSerial-android/)
+[diSerial for Android on GitHub](https://github.com/dsdtech-official/diSerial-android/blob/main/README.md)
 
 ## Privacy policy
 
